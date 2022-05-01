@@ -1,252 +1,288 @@
 [[Luna]]
 arch = "aarch64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "dee5ff65d3fa21c66be81144cf5555df815592cf"
-libc = "musl"
-os = "linux"
-
-    [[Luna.download]]
-    sha256 = "2b0e18ecf485ff60f36872bea6a0ac51851f8ecf9921314dfce8d1cb017aa751"
-    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.23.0+1/Luna.v0.23.0.aarch64-linux-musl-cxx03.tar.gz"
-[[Luna]]
-arch = "aarch64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "3402bc70c97c7637fbd16f1074005c96d3adffc6"
-libc = "musl"
-os = "linux"
-
-    [[Luna.download]]
-    sha256 = "74c2ea2af39471afc122e7c2da1e788b477d00c68050439747161d6f459e377f"
-    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.23.0+1/Luna.v0.23.0.aarch64-linux-musl-cxx11.tar.gz"
-[[Luna]]
-arch = "armv7l"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "1ec976fd04ea0b1571cef5ef08706eb5f1164581"
-libc = "musl"
-os = "linux"
-
-    [[Luna.download]]
-    sha256 = "0bbd338d1d139679ad0fe6c4f9a56c401f889923a7308760f371f798704d8b37"
-    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.23.0+1/Luna.v0.23.0.armv7l-linux-musleabihf-cxx03.tar.gz"
-[[Luna]]
-arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "3ee1d6f0b0f39212d91cf69119f51597524978a2"
-os = "windows"
-
-    [[Luna.download]]
-    sha256 = "c3739c1744273662e86dcf1b99693f45e5a96e23b7d62d562fdbc77c9ceb438f"
-    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.23.0+1/Luna.v0.23.0.x86_64-w64-mingw32-cxx11.tar.gz"
-[[Luna]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "db9cb0f99cd3a9954fe53c9110d44259f5f21a9d"
-libc = "musl"
-os = "linux"
-
-    [[Luna.download]]
-    sha256 = "4ea0ae300c127d88db8b010f3bf1bc5168ff96f36374713ff14025b8fb582a44"
-    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.23.0+1/Luna.v0.23.0.i686-linux-musl-cxx11.tar.gz"
-[[Luna]]
-arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "b49a6a9659e471d91a2b821ba5d27d6380acd0ef"
-libc = "musl"
-os = "linux"
-
-    [[Luna.download]]
-    sha256 = "dfad2037098bdb37911515ff6b8a07d70083e62d957169dca0583043e0282113"
-    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.23.0+1/Luna.v0.23.0.x86_64-linux-musl-cxx11.tar.gz"
-[[Luna]]
-arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "a57221c5e000b7f651acf438a28328516bc00019"
-libc = "glibc"
-os = "linux"
-
-    [[Luna.download]]
-    sha256 = "f30ee968014112709f92b1c8b50063fc4f5107b86a54ff1505938a43b32b6388"
-    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.23.0+1/Luna.v0.23.0.x86_64-linux-gnu-cxx03.tar.gz"
-[[Luna]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "2dfbfba6724a188f87b6acf5b786d10c4ce188a5"
-libc = "glibc"
-os = "linux"
-
-    [[Luna.download]]
-    sha256 = "964024d933efef1a7b7ea63d483c7b2c272efa6440fa5ac25f77a71bb3933217"
-    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.23.0+1/Luna.v0.23.0.i686-linux-gnu-cxx03.tar.gz"
-[[Luna]]
-arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "b952768656ba106250118faa704cd461a24de915"
+git-tree-sha1 = "328aaf52d9156cc02c513cf67a63f9f2df9f86d6"
 os = "macos"
 
     [[Luna.download]]
-    sha256 = "a19d2b7306ba8c00f9704d818d3075ce22aa505672e56e4d56d2ac0ea006e34a"
-    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.23.0+1/Luna.v0.23.0.x86_64-apple-darwin14-cxx11.tar.gz"
+    sha256 = "614058f026478f1e34ba5dfa08d851c341d849de217a1fd0143096147efed3a7"
+    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.26.2+0/Luna.v0.26.2.aarch64-apple-darwin.tar.gz"
 [[Luna]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "7e6aa00fbb36ef731e7184f1cfa5a3e65a049c78"
-libc = "glibc"
-os = "linux"
-
-    [[Luna.download]]
-    sha256 = "974a9f9b54b7a9765da6e1a4e4305c9a4f085baabcecad7d9b88ebee050825be"
-    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.23.0+1/Luna.v0.23.0.i686-linux-gnu-cxx11.tar.gz"
-[[Luna]]
-arch = "x86_64"
+arch = "aarch64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "5ccba34e9495c7648cbcd2a06d2f6bbcfa9f7455"
-os = "windows"
-
-    [[Luna.download]]
-    sha256 = "60ecf38e159fecbad7de8834751f1b69c14d2654c032cffd28bf299b7a9d3787"
-    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.23.0+1/Luna.v0.23.0.x86_64-w64-mingw32-cxx03.tar.gz"
-[[Luna]]
-arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "03dd50745fb2cab759526d2f08f66f691c362c33"
+git-tree-sha1 = "a99e9fa8d5476c1c3f2a38acda7f20e8f0c3f0c0"
 libc = "glibc"
 os = "linux"
 
     [[Luna.download]]
-    sha256 = "f8d7961a4d2f923a88bdd27a1ee9ccfcbe4ec35986a19f6ba87801d2db691a66"
-    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.23.0+1/Luna.v0.23.0.x86_64-linux-gnu-cxx11.tar.gz"
-[[Luna]]
-arch = "powerpc64le"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "d51188469e7ab9d546c563ea79a51c18bf4ca4ed"
-libc = "glibc"
-os = "linux"
-
-    [[Luna.download]]
-    sha256 = "e8304fb41e7f8c63be7b4f4d9746b87e330fa6fa126ebf95e4866fa1f74febce"
-    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.23.0+1/Luna.v0.23.0.powerpc64le-linux-gnu-cxx11.tar.gz"
+    sha256 = "a644308b274d0206ffccd66a7b348c8b3e5f87b3f599b8bca8bed319f031aa48"
+    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.26.2+0/Luna.v0.26.2.aarch64-linux-gnu-cxx03.tar.gz"
 [[Luna]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "ddcf8aa13841c2b62fd5115474634170864ec1df"
+git-tree-sha1 = "95651e3648d17ada03c7e921257e48add1c782f4"
 libc = "glibc"
 os = "linux"
 
     [[Luna.download]]
-    sha256 = "8684e0d606d0363c13ff7d5d870a9d4ad2688190a981ff0e07f6dca0e49d780e"
-    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.23.0+1/Luna.v0.23.0.aarch64-linux-gnu-cxx11.tar.gz"
+    sha256 = "938aa6f44f84fb32527966076a1bc523151ecb0032de5c70334c0b281f9f4134"
+    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.26.2+0/Luna.v0.26.2.aarch64-linux-gnu-cxx11.tar.gz"
 [[Luna]]
-arch = "x86_64"
+arch = "aarch64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "798abfa4e8412d11b3bfe3739507fe92914257ac"
+git-tree-sha1 = "47a8347a1bf02e801008827869efa6e89ebb735e"
 libc = "musl"
 os = "linux"
 
     [[Luna.download]]
-    sha256 = "16fd23d3d1289c06976958a78e32c033c6544f23e913ebc443bb8fb0237926a2"
-    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.23.0+1/Luna.v0.23.0.x86_64-linux-musl-cxx03.tar.gz"
+    sha256 = "31ba1e3e9e2a46b540e4d2794a52720ba0c8991b845220d1f500456072a3c102"
+    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.26.2+0/Luna.v0.26.2.aarch64-linux-musl-cxx03.tar.gz"
+[[Luna]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "84ad103891a01e4c5152dbd448974e7ac2daca03"
+libc = "musl"
+os = "linux"
+
+    [[Luna.download]]
+    sha256 = "417e3fe5ddebca62fb2efa14a42e02e7184901c31e490e0b2a04bca6ea0e3c09"
+    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.26.2+0/Luna.v0.26.2.aarch64-linux-musl-cxx11.tar.gz"
+[[Luna]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "c7b480012044fb83e1d7e81ba56d93250a8822b1"
+libc = "glibc"
+os = "linux"
+
+    [[Luna.download]]
+    sha256 = "b646d0145ba4ca02e69c923d0ba159b6dd81825f9f1d45a44a335ef510325ebf"
+    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.26.2+0/Luna.v0.26.2.armv6l-linux-gnueabihf-cxx03.tar.gz"
+[[Luna]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "9576867b0b5c96719e1cd7a10f115d7b5739d0b1"
+libc = "glibc"
+os = "linux"
+
+    [[Luna.download]]
+    sha256 = "f41ab9fb2211b1ff895011753194b9733b4b070c17bcbec2779e68d17eefe5e2"
+    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.26.2+0/Luna.v0.26.2.armv6l-linux-gnueabihf-cxx11.tar.gz"
+[[Luna]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "63199bc045215479dee312614ad1448c800fc463"
+libc = "musl"
+os = "linux"
+
+    [[Luna.download]]
+    sha256 = "52f2bf5846e0725bf47993e3a7b29fcca9c835c02150665976db397cabff6468"
+    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.26.2+0/Luna.v0.26.2.armv6l-linux-musleabihf-cxx03.tar.gz"
+[[Luna]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "f00f366ea3291262fbd9da404238b6c8bdf1b160"
+libc = "musl"
+os = "linux"
+
+    [[Luna.download]]
+    sha256 = "5f57e9a5ca00558bdf939cd0dee6b494a22d0c6310f53609ef31a6dced156abb"
+    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.26.2+0/Luna.v0.26.2.armv6l-linux-musleabihf-cxx11.tar.gz"
+[[Luna]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "0a2f809b3420c483f857a9baa2e7189e0a3ab421"
+libc = "glibc"
+os = "linux"
+
+    [[Luna.download]]
+    sha256 = "470e99aa5c9b7e9a8d3786a2ccd0e8740e9211894050b6c2b44ee2d2f9e85604"
+    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.26.2+0/Luna.v0.26.2.armv7l-linux-gnueabihf-cxx03.tar.gz"
+[[Luna]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "3c7dff81d23f0dc5643faea3c31154e60425f344"
+libc = "glibc"
+os = "linux"
+
+    [[Luna.download]]
+    sha256 = "abfa19f53d6629151fbd50070e6701c2a0932a72b0f09647a9dd3c83ae832eb5"
+    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.26.2+0/Luna.v0.26.2.armv7l-linux-gnueabihf-cxx11.tar.gz"
+[[Luna]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "f726177e4931ce63176f597c67fb808cf74fc885"
+libc = "musl"
+os = "linux"
+
+    [[Luna.download]]
+    sha256 = "9534efa558ec82461ae7268b1d096e50b191488784a683edb1b3392c189c08b3"
+    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.26.2+0/Luna.v0.26.2.armv7l-linux-musleabihf-cxx03.tar.gz"
+[[Luna]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "27609f75b3c615fe4e45c010750fbaf87319b80e"
+libc = "musl"
+os = "linux"
+
+    [[Luna.download]]
+    sha256 = "652b0918d912a7181f09077e4565f56a14541336667e21144bc0ac9ef98c2e63"
+    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.26.2+0/Luna.v0.26.2.armv7l-linux-musleabihf-cxx11.tar.gz"
+[[Luna]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "d509ef42a16e7614262cfbfc2c4065de3df19a36"
+libc = "glibc"
+os = "linux"
+
+    [[Luna.download]]
+    sha256 = "e162f8ac35462cb481ed15f1d67daf8366ce53fc2b2f7dfcdfaef6a7e6a5fbb0"
+    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.26.2+0/Luna.v0.26.2.i686-linux-gnu-cxx03.tar.gz"
+[[Luna]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "7b4fd817d4bc28ab27bd2211aa4b8527d18e05d2"
+libc = "glibc"
+os = "linux"
+
+    [[Luna.download]]
+    sha256 = "e8c78ea43c0a6d8a7a57d907b69000d8cf97d84a0192f00526e8700bec96049c"
+    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.26.2+0/Luna.v0.26.2.i686-linux-gnu-cxx11.tar.gz"
+[[Luna]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "1a2231cd38b0b6484b06da3450dcb1ef8ed53043"
+libc = "musl"
+os = "linux"
+
+    [[Luna.download]]
+    sha256 = "226b70e09a16cedb2a60a2422ad8267bae86a1bc8a6f948bfaca987be1ad6953"
+    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.26.2+0/Luna.v0.26.2.i686-linux-musl-cxx03.tar.gz"
+[[Luna]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "f19640e795ab5fe193a23fe07f82a8d644dfa659"
+libc = "musl"
+os = "linux"
+
+    [[Luna.download]]
+    sha256 = "5fc426dabf1ba2ef08ff9b30ae7a627a6585eb3e645726631d3006aa22f92371"
+    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.26.2+0/Luna.v0.26.2.i686-linux-musl-cxx11.tar.gz"
+[[Luna]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "f6d1d4645d7a0e71b1ea9c8e1710dd31af5a2fe2"
+os = "windows"
+
+    [[Luna.download]]
+    sha256 = "97fa49e75bf4893f3b3b72925b9f4362321b1b3991ab8f134cb919aef56ba071"
+    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.26.2+0/Luna.v0.26.2.i686-w64-mingw32-cxx03.tar.gz"
+[[Luna]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "206a1a426b545412cc5f6c9a483d824ba82dac6c"
+os = "windows"
+
+    [[Luna.download]]
+    sha256 = "f37d75a2c60ef435ac043ce8c22dd7dc2a11c61272c07518eb23d63e5f6fd896"
+    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.26.2+0/Luna.v0.26.2.i686-w64-mingw32-cxx11.tar.gz"
+[[Luna]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "a565874696ade27b9ad760b00208f0e9aa57af9e"
+libc = "glibc"
+os = "linux"
+
+    [[Luna.download]]
+    sha256 = "5f24aa438576278b8b5767f98505b170cc9844b6cb067b7ec4986c3e0b3debe7"
+    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.26.2+0/Luna.v0.26.2.powerpc64le-linux-gnu-cxx03.tar.gz"
+[[Luna]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "4d3ce47707443e65b1d045c20b275d59d257b07d"
+libc = "glibc"
+os = "linux"
+
+    [[Luna.download]]
+    sha256 = "045832248311843fb68e5af44b26719dd46f14e8bb3cdfd1a7331e00ba826f05"
+    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.26.2+0/Luna.v0.26.2.powerpc64le-linux-gnu-cxx11.tar.gz"
 [[Luna]]
 arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "3929d23a85f2e05ff71b7fad24dce44d510a8eff"
+git-tree-sha1 = "8f5bbe8bda23231f7f75d0da21f6481b7dedfc3a"
 os = "macos"
 
     [[Luna.download]]
-    sha256 = "89a46439fda4d1619cba09cb3fd1e4f70771113646d4ac06bd71394ddc70c11b"
-    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.23.0+1/Luna.v0.23.0.x86_64-apple-darwin14-cxx03.tar.gz"
+    sha256 = "df92cda27627c112714ac18d504eac10b61db53d590e5b22bf9f8a8972f467a9"
+    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.26.2+0/Luna.v0.26.2.x86_64-apple-darwin.tar.gz"
 [[Luna]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "ea8cfe1aa5ee7dab89140f49cac3937d63adc370"
-os = "freebsd"
-
-    [[Luna.download]]
-    sha256 = "5eecfee70be79d2973dcbe8790d3a919e29199397b6dd3e0cb3c86533de0d4e8"
-    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.23.0+1/Luna.v0.23.0.x86_64-unknown-freebsd11.1-cxx03.tar.gz"
-[[Luna]]
-arch = "powerpc64le"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "56fa1bd2b2d41619600e47c18df37e7f256480f4"
+git-tree-sha1 = "e7b5f1c878ca3adab47c52d666477ceada167453"
 libc = "glibc"
 os = "linux"
 
     [[Luna.download]]
-    sha256 = "87a761f1a54a258c72fdb31dac1af8649f0bd5ba923189d31152c59c5e84ffb3"
-    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.23.0+1/Luna.v0.23.0.powerpc64le-linux-gnu-cxx03.tar.gz"
+    sha256 = "30a585e8577ebe4eb68503d0e4b2b03b0063e2e4c9c39457ee95d3a7f6b3c3fa"
+    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.26.2+0/Luna.v0.26.2.x86_64-linux-gnu-cxx03.tar.gz"
 [[Luna]]
-arch = "i686"
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "d2a1a4866f40c796efd5680cb672248bf10e82be"
+libc = "glibc"
+os = "linux"
+
+    [[Luna.download]]
+    sha256 = "c012c500ff0eb28aea8bf1740f90df4a69697fb20a3e04edef7cf1f3b0fced1c"
+    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.26.2+0/Luna.v0.26.2.x86_64-linux-gnu-cxx11.tar.gz"
+[[Luna]]
+arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "8edc4e74bd3e946c55db8668a31b9676405d18b6"
-os = "windows"
-
-    [[Luna.download]]
-    sha256 = "762deb567c29f6a2c5949d8f25bd9a95ebd55318b3e4fb27f23e287d5e833094"
-    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.23.0+1/Luna.v0.23.0.i686-w64-mingw32-cxx03.tar.gz"
-[[Luna]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "015bdba518e561de78f701433be246a7adf92bf9"
-os = "windows"
-
-    [[Luna.download]]
-    sha256 = "e1e882eb6847e3018f0182c6de39db9a9f250fcb2c6bb234603b1cbfd46c538c"
-    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.23.0+1/Luna.v0.23.0.i686-w64-mingw32-cxx11.tar.gz"
-[[Luna]]
-arch = "armv7l"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "e8f6321b81337618037472a851013b4cb89a9237"
+git-tree-sha1 = "a6400ce45add547a4c061e50c6f55dfce73257b3"
 libc = "musl"
 os = "linux"
 
     [[Luna.download]]
-    sha256 = "917b0089de4861f10eef4bc55d2ebc5a93482e0873a51a12e607030903f1dcfb"
-    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.23.0+1/Luna.v0.23.0.armv7l-linux-musleabihf-cxx11.tar.gz"
-[[Luna]]
-arch = "armv7l"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "0ffbc22c131b66c8c4f0b57cd7afd3be95bb1395"
-libc = "glibc"
-os = "linux"
-
-    [[Luna.download]]
-    sha256 = "3b00ea121b04e8722f0fa28e53518d807544e3186ade015ab5dc6bd2d601a4d0"
-    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.23.0+1/Luna.v0.23.0.armv7l-linux-gnueabihf-cxx03.tar.gz"
-[[Luna]]
-arch = "aarch64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "8d30b83fe64cf68d052eb02e5572b01ae9477f8d"
-libc = "glibc"
-os = "linux"
-
-    [[Luna.download]]
-    sha256 = "ab9919fd50a890d16bfa3330261fd1bf0d1ac8376893174993949f2b2fe76743"
-    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.23.0+1/Luna.v0.23.0.aarch64-linux-gnu-cxx03.tar.gz"
-[[Luna]]
-arch = "armv7l"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "2f0a37c4d137d1679c10aed929980454bd1494dc"
-libc = "glibc"
-os = "linux"
-
-    [[Luna.download]]
-    sha256 = "e487ba2d19522a477723504375593817d0791c3dafb41ff859ade216b26fdc96"
-    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.23.0+1/Luna.v0.23.0.armv7l-linux-gnueabihf-cxx11.tar.gz"
+    sha256 = "0804d782ca72b37a03da67c39d3ef6ec0b50bfab704dfbafb45105c259301cf1"
+    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.26.2+0/Luna.v0.26.2.x86_64-linux-musl-cxx03.tar.gz"
 [[Luna]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "38662bbf95cb7a44c54acb165006a236f99d5787"
-os = "freebsd"
-
-    [[Luna.download]]
-    sha256 = "51bda3030c5bdace89c97e711e20cac0b642d49c94d3a77376854047db158197"
-    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.23.0+1/Luna.v0.23.0.x86_64-unknown-freebsd11.1-cxx11.tar.gz"
-[[Luna]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "8548a3db9800c95f62c4bea1ec28e8c419a0e59e"
+git-tree-sha1 = "f111870a004f3206c98fd9f31bc725c7a93f08d1"
 libc = "musl"
 os = "linux"
 
     [[Luna.download]]
-    sha256 = "edc19fb170c5f75eb29a66abaa316def4f8a1d5e450034f45b06b8fc196bd6c9"
-    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.23.0+1/Luna.v0.23.0.i686-linux-musl-cxx03.tar.gz"
+    sha256 = "3b490a0144615964a0edd19370638cb6f895c1f58f20085451cde7abd2f212ab"
+    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.26.2+0/Luna.v0.26.2.x86_64-linux-musl-cxx11.tar.gz"
+[[Luna]]
+arch = "x86_64"
+git-tree-sha1 = "77d976fbf0249cc83216c771e633a62e774bc0ac"
+os = "freebsd"
+
+    [[Luna.download]]
+    sha256 = "78625bcbd4e4671cca683f840c0f218f61846e57bfead9530fcae382ea80f1b9"
+    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.26.2+0/Luna.v0.26.2.x86_64-unknown-freebsd.tar.gz"
+[[Luna]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "6f075e2fe29bab18767f71ab7cb7787ebfa5b5d2"
+os = "windows"
+
+    [[Luna.download]]
+    sha256 = "4dc63ba387e672966f875cbb1ba1a44a46d884426dc24bcfe5b5d8e20636e7a6"
+    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.26.2+0/Luna.v0.26.2.x86_64-w64-mingw32-cxx03.tar.gz"
+[[Luna]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "7c8b6b1ac403d4cdf771e215ea66490632add6c6"
+os = "windows"
+
+    [[Luna.download]]
+    sha256 = "086ceed3309bf081924e9748977a225e8502158fe9f40386f978016ce1c283b6"
+    url = "https://github.com/JuliaBinaryWrappers/Luna_jll.jl/releases/download/Luna-v0.26.2+0/Luna.v0.26.2.x86_64-w64-mingw32-cxx11.tar.gz"
